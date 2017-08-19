@@ -13,13 +13,13 @@
 
 // >>>>>> Set these variables according to your Cloud user account
 #define TEST_ACCOUNT_NAME		"myEdcAccount"	// Your Account name in Cloud
-#define TEST_BROKER_URL		"tcp://broker-sandbox.everyware-cloud.com:1883/"		// URL address of broker
+#define TEST_BROKER_URL		"tcp:sungura1-angani-ke-host.africastalking.com:1884"		// URL address of broker
 //#define TEST_BROKER_URL     	"tcp://localhost:1883"	//local
 
 #define TEST_CLIENT_ID		"001122DDEEFF"		// Unique Client ID of this client device
 #define TEST_ASSET_ID		"334455AABBCC"		// Unique Asset ID of this client device
-#define TEST_USERNAME		"myEdcUserName_broker" // Username in account, to use for publishing
-#define TEST_PASSWORD		"myEdcPassword3#"	// Password associated with Username
+#define TEST_USERNAME		"kapua-broker" // Username in account, to use for publishing
+#define TEST_PASSWORD		"kapua-pass"	// Password associated with Username
 // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 #define	DATA_SEMANTIC_TOPIC		"nativeclient/data"		// default publish topic
 #define PUBLISH_PERIOD		10000			// time between published messages, in milliseconds
